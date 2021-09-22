@@ -1,0 +1,79 @@
+
+
+
+:root {
+    --text: #a4a2a8;
+    --backgr: #eceae7;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+}
+
+.grid1200 {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0  auto;
+    text-align: center;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.grid__column-4 {
+    padding: 15px;
+    width: 33.333%;
+}
+
+.grid__column-8 {
+    padding: 15px 5px;
+    width: 66.666%;
+    position: relative;
+}
+
+@keyframes fameIn{
+    from {
+        transform: translateY(-15px);
+        transform: 0.7;
+        opacity: 0.5;
+    }to {
+        transform: translateY(0);
+        transform: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes dieuhuong{
+    0% {
+        transform: 0.7;
+        transform: translateX(-56px);
+        opacity: 0.5;
+    }100% {
+        transform: 1;
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+/*reponsive*/
+
+@media (min-width: 1024px){
+
+}
+
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+

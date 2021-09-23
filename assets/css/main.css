@@ -515,7 +515,7 @@
 
 .purport {
     position: absolute;
-    bottom: 0px;
+    bottom: 16px;
     left: 15px;
     padding: 30px 30px;
     text-align: left;
@@ -552,7 +552,7 @@
 
 .photo1 {
     
-    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538);
+    background-image: url(../img/parallax-search-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -801,7 +801,7 @@
 
 .photo2-clm2 {
     width: 50%;
-    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-5-filter.jpg?id=1584);
+    background-image: url(../img/parallax-5-filter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1050,7 +1050,7 @@
 
 
 .footer {
-    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-7.jpg?id=1602);
+    background-image: url(../img/parallax-7.jpg);
     background-size: cover;
     height: 670px;
     background-position: center;
@@ -1345,8 +1345,8 @@
     }
 
     .search_content {
-        width: 244px;
-
+        width: 150px;
+        font-size: 16px;
     }
 
     .timee {
